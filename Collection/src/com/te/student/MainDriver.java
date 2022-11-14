@@ -4,20 +4,22 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-import com.te.restaurantapplication.HandlingExpection;
+//import com.te.restaurantapplication.HandlingExpection;
 
 public class MainDriver {
 	
 	 static Scanner s= new Scanner(System.in);
      public static void main(String[] args) {
-		
+    	 
                Student student =new Student(1, "Yamini", 26, 65 );
                Student student1 =new Student(2, "Ramya", 21, 60 );
                Student studen2 =new Student(6, "Emath", 27, 80 );
                Student studen3 =new Student(4, "Siva", 21, 30 );
                Student studen4 =new Student(3, "Sathish", 23, 55);
                Student studen5 =new Student(5, "Raj", 27, 7 );
-               Student studen6 =new Student(5, "Raj", 27, 7 );
+               Student studen6 =new Student(7, "Raj", 28, 7 );
+//               Student studen7 =new Student(7, "Ra", 28, 7 );
+
                
                
                ArrayList<Student> arrayList = new ArrayList<Student>();

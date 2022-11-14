@@ -7,13 +7,23 @@ public class Student implements Comparable<Student> {
 	int studentAge; 
 	int studentMarks;
 	
-	public Student(int studentId, String studentName, int studentAge, int studentMarks) {
-		
+	
+	
+public Student(int studentId, String studentName, int studentAge, int studentMarks) {
+		super();
 		this.studentId = studentId;
 		this.studentName = studentName;
 		this.studentAge = studentAge;
 		this.studentMarks = studentMarks;
 	}
+
+//	public Student() {
+//		
+//		this.studentId = studentId;
+//		this.studentName = studentName;
+//		this.studentAge = studentAge;
+//		this.studentMarks = studentMarks;
+//	}
 
 	@Override
 	public String toString() {
